@@ -49,3 +49,26 @@ printEvery5Sec()
 //   }, 1000)
 // }
 
+// attempting promise logic, pulled from promise activity
+
+// deleteButton.addEventListener('click', function(){
+//         getUserConfirmation()
+//             .then( userConfirmed => {
+//                 if(userConfirmed){
+//                     documentLi.remove()
+//                 }
+//             })
+//     })
+
+// return new Promise(function(resolve){
+//         confirmButton.addEventListener('click', function(){
+//             resolve(true)
+//             modalDiv.remove()
+//         })
+
+//         cancelButton.addEventListener('click', function(){
+//             resolve(false)
+//             modalDiv.remove()
+//         })
+//     })
+
